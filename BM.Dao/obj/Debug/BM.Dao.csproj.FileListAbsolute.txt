@@ -1,0 +1,17 @@
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Dao\bin\Debug\BM.Dao.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Dao\bin\Debug\BM.Dao.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Dao\obj\Debug\BM.Dao.csprojResolveAssemblyReference.cache
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Dao\obj\Debug\BM.Dao.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Dao\obj\Debug\BM.Dao.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\BM.Dao.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\BM.Dao.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\BM.Core.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\FluentNHibernate.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\Iesi.Collections.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\NHibernate.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\BM.Core.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\FluentNHibernate.xml
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\bin\Debug\NHibernate.xml
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\obj\Debug\BM.Dao.csprojResolveAssemblyReference.cache
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\obj\Debug\BM.Dao.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Dao\obj\Debug\BM.Dao.pdb

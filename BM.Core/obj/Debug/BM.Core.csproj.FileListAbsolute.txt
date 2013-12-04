@@ -1,0 +1,9 @@
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Core\bin\Debug\BM.Core.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Core\bin\Debug\BM.Core.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Core\obj\Debug\BM.Core.csprojResolveAssemblyReference.cache
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Core\obj\Debug\BM.Core.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Core\obj\Debug\BM.Core.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Core\bin\Debug\BM.Core.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Core\bin\Debug\BM.Core.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Core\obj\Debug\BM.Core.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Core\obj\Debug\BM.Core.pdb

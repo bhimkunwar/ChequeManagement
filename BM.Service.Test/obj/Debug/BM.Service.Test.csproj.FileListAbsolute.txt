@@ -1,0 +1,14 @@
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\BM.Service.Test.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\BM.Service.Test.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\BM.Core.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\BM.Dao.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\FluentNHibernate.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\NHibernate.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\Iesi.Collections.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\BM.Core.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\BM.Dao.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\FluentNHibernate.xml
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\bin\Debug\NHibernate.xml
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\obj\Debug\BM.Service.Test.csprojResolveAssemblyReference.cache
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\obj\Debug\BM.Service.Test.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\BM\BMSolution\BM.Service.Test\obj\Debug\BM.Service.Test.pdb

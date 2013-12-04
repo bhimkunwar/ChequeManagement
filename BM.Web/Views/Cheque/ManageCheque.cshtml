@@ -1,0 +1,129 @@
+﻿@model BM.Core.Entity.Cheque.Cheque
+
+@{
+    ViewBag.Title = "ManageCheque";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ManageCheque</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Cheque</legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.ChequeNumber)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.ChequeNumber)
+                            @Html.ValidationMessageFor(model => model.ChequeNumber)
+                        </div>
+                    </td>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.FirmName)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.FirmName)
+                            @Html.ValidationMessageFor(model => model.FirmName)
+                        </div>
+                    </td>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.PirtyName)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.PirtyName)
+                            @Html.ValidationMessageFor(model => model.PirtyName)
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.BankName)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.BankName)
+                            @Html.ValidationMessageFor(model => model.BankName)
+                        </div>
+                    </td>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.BearerName)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.BearerName)
+                            @Html.ValidationMessageFor(model => model.BearerName)
+                        </div>
+                    </td>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.PaidAmount)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.PaidAmount)
+                            @Html.ValidationMessageFor(model => model.PaidAmount)
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.ChqType)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.ChqType)
+                            @Html.ValidationMessageFor(model => model.ChqType)
+                        </div>
+                    </td>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.PaymentType)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.PaymentType)
+                            @Html.ValidationMessageFor(model => model.PaymentType)
+                        </div>
+                    </td>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.PaymentDate)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.PaymentDate)
+                            @Html.ValidationMessageFor(model => model.PaymentDate)
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.IssuedDate)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.IssuedDate)
+                            @Html.ValidationMessageFor(model => model.IssuedDate)
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

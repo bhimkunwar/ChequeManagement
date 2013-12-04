@@ -1,0 +1,54 @@
+﻿@model BM.Core.Entity.User
+
+@{
+    ViewBag.Title = "LogOn";
+    
+}
+
+<h4>LogOn</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <div align="left">
+        <fieldset class="FormLayout">
+            <legend></legend>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td aria-expanded="true">
+                            @Html.LabelFor(model => model.loginName)
+                        </td>
+                        <td>
+                            @Html.EditorFor(model => model.loginName)
+                        </td>
+                        <td>
+                            @Html.ValidationMessageFor(model => model.loginName,"*")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.LabelFor(model => model.loginPassword)
+                        </td>
+                        <td>
+                            @Html.EditorFor(model => model.loginPassword)
+                        </td>
+                        <td>
+                            @Html.ValidationMessageFor(model => model.loginPassword,"*")
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                <input type="submit" value="Submit" class="myButton" />
+            </p>
+        </fieldset>
+    </div>
+        
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

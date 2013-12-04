@@ -1,0 +1,5 @@
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Common\bin\Debug\BM.Common.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Common\bin\Debug\BM.Common.pdb
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Common\obj\Debug\BM.Common.csprojResolveAssemblyReference.cache
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Common\obj\Debug\BM.Common.dll
+E:\dev work\Dev_Work\mission upgrade\Srt\Srt\BMSolution\BM.Common\obj\Debug\BM.Common.pdb

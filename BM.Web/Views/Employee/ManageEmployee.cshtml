@@ -1,0 +1,84 @@
+﻿@model BM.Core.Entity.Cheque.Employee
+
+@{
+    ViewBag.Title = "ManageEmployee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ManageEmployee</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)    
+    <fieldset>
+        <legend>Employee</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.surnanme)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.surnanme)
+            @Html.ValidationMessageFor(model => model.surnanme)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Address)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Address)
+            @Html.ValidationMessageFor(model => model.Address)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Gender)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Gender)
+            @Html.ValidationMessageFor(model => model.Gender)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.JoinDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.JoinDate)
+            @Html.ValidationMessageFor(model => model.JoinDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Dob)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Dob)
+            @Html.ValidationMessageFor(model => model.Dob)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EmployeementType)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EmployeementType)
+            @Html.ValidationMessageFor(model => model.EmployeementType)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
